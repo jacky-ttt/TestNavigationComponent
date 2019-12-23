@@ -11,6 +11,26 @@
         android:label="FragmentA"
         tools:layout="@layout/fragment_a">
 
+        <action
+            android:id="@+id/fragment_a_to_b"
+            app:destination="@id/fragment_b">
+            <argument
+                android:name="argString"
+                app:nullable="false" />
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_b"
+        android:name="com.jacky.testnavigationcomponent.FragmentB"
+        android:label="FragmentB"
+        tools:layout="@layout/fragment_b">
+
+        <argument
+            android:name="argString"
+            app:nullable="false" />
+
     </fragment>
 
 </navigation>
