@@ -1,0 +1,2 @@
+## This is a simple android application that demonstrates the navigation component and how to pass data between fragment
+[medium](https://medium.com/@jacky_ttt/day137-navigation-component-db8188010da4)
